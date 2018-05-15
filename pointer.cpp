@@ -4,17 +4,17 @@ int main(void) {
     int b = 2;
     int* pointer = &b;
  
-    printf("ÅÜ¼Æ b ªº­È¡G%d\n", b);
-    printf("ÅÜ¼Æ b ªº¦a§}¡G%p\n", &b);
-    printf("pointer ªº­È¡G%p\n", pointer);
-    printf("\n"); //´«¦æ
+    printf("è®Šæ•¸ b çš„å€¼ï¼š%d\n", b);
+    printf("è®Šæ•¸ b çš„åœ°å€ï¼š%p\n", &b);
+    printf("pointer çš„å€¼ï¼š%p\n", pointer);
+    printf("\n"); //æ›è¡Œ
     
     *pointer = 100;
  
-    printf("pointer ªº­È¡G%p\n", pointer);
- 	printf("*pointer ªº­È¡G%d\n", *pointer);
-    printf("ÅÜ¼Æ b ªº­È¡G%d\n", b);
-    printf("ÅÜ¼Æ pointer ªº¦a§}¡G%p\n", &pointer);
+    printf("pointer çš„å€¼ï¼š%p\n", pointer);
+ 	  printf("*pointer çš„å€¼ï¼š%d\n", *pointer);
+    printf("è®Šæ•¸ b çš„å€¼ï¼š%d\n", b);
+    printf("è®Šæ•¸ pointer çš„åœ°å€ï¼š%p\n", &pointer);
  
     return 0;
 }
