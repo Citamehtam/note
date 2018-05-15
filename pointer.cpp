@@ -12,7 +12,7 @@ int main(void) {
     *pointer = 100;
  
     printf("pointer 的值：%p\n", pointer);
- 	  printf("*pointer 的值：%d\n", *pointer);
+    printf("*pointer 的值：%d\n", *pointer);
     printf("變數 b 的值：%d\n", b);
     printf("變數 pointer 的地址：%p\n", &pointer);
  
